@@ -1,0 +1,13 @@
+[package]
+name = "intercity"
+description = "A reasonable web framework"
+categories = ["web-programming", "web-programming::http-server"]
+authors = ["Tim McNamara <tim@mcnamara.nz>"]
+repository = "https://github.com/timClicks/intercity"
+license = "ModelOak-1.0.0"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+tiny_http = "0.12"
+rust-embed = "8"
